@@ -31,7 +31,7 @@ General rules of thumb:
 * if more than 50% missing value, do not impute, provide binary indicators.
 * if less than 50% missing value, perform imputation.
 Easy to do in pandas: 
-```
+```python
 import pandas as pd
 desc = X.describe().T
 
