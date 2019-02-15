@@ -25,6 +25,8 @@ This talk provides a step-by-step overview and demonstration of several dimensio
 11. LASSO
 12. Tree-based selection
 
+![Screenshot](workflow_dim_red.png)
+
 ### 1. Percent missing values
 A very simple approach, drop variables that have a high % of missing values. Missing values can have meaning, therefore create binary indicators to denote missing (or non-missing) values.
 General rules of thumb:
